@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500');
+
+/* ----------------------------------------------------- */
+/*	BACKGROUND IMAGE   */
+/* ----------------------------------------------------- */
+body{
+	/* background: url(https://cdna0.artstation.com/p/assets/images/images/002/343/084/large/counterplay-games-ostracon.jpg?1460523891&dl=1); */
+	/* background: url(https://cdna2.artstation.com/p/assets/images/images/003/307/382/large/counterplay-games-chapter-12-trinity-mandates-and-great-diaspora4-color-1600-logo.jpg?1472240330&dl=1); */
+  background: url(https://cdnb3.artstation.com/p/assets/images/images/003/307/391/large/counterplay-games-chapter-13-dawn-of-vetruvians1-1600-logo.jpg?1472240369&dl=1);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#main{
+	background: rgba(0,0,0,.5);
+}
+
+/* ----------------------------------------------------- */
+/*	GENERAL TYPOGRAPHY  */
+/* ----------------------------------------------------- */
+h1,h2,h3,h4,h5,a,p,li,b,div,strong,blockquote,textarea,input{
+	font-family: "Rubik", Verdana !important;
+}
+
+span, p, li, textarea, input{
+  font-weight: 300 !important;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: 500;
+}
+
+span{
+	font-weight: 300;
+}
+
+p{
+  line-height: 1.4rem;
+  font-size: .95em;
+  padding: 6px 0;
+}
+
+strong, b{
+	font-weight: 500 !important;
+  font-size: 1.1em;
+}
+
+blockquote{
+	padding: 0;
+  border: 0;
+  background: none;
+}
+
+
+
+/* ----------------------------------------------------- */
+/*	POSTS  */
+/* ----------------------------------------------------- */
+.topic-body .contents a{
+	color: #ffbb00 !important;
+}
+
+.topic-post{
+	margin-bottom: 20px;
+}
+
+article, .topics{
+	background: rgba(0,0,0,.8);
+  border-radius: 3px;
+  border: none;
+}
+
+.d-header{
+	background: rgba(0,0,0,.3);
+}
+
+.d-header i{
+	color: #fff;
+}
+
+.icon:hover{
+	background: none !important;
+  opacity: .5;
+}
+
+.topic-avatar{
+/*	display: none;*/
+  padding-left: 10px;
+}
+
+img.avatar{
+	border-radius: 0;
+}
+
+.topic-area{
+	max-width: 815px;
+}
+
+.username{
+  font-size: 1.4em !important;
+  font-weight: 300 !important;
+  padding: 10px 0 0 0px;
+  line-height: 1.4em;
+}
+
+.cooked{
+	padding: 20px 0;
+}
+
+.topic-meta-data{
+	height: 50px;
+  border-bottom: 1px solid rgba(225,225,225,.3);
+}
+
+.post-controls{
+	border-top: 1px solid rgba(225,225,225,.3);
+  padding: 10px 0 0 0 !important;
+}
+
+.post-menu-area{
+	margin: 3px 0 0 0;
+}
+
+/* .post-controls,.topic-meta-data{
+ border: none !important;
+} */
+
+
+.badge-category{
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0 5px 2px 5px !important;
+  font-weight: 400;
+}
+
+/*	QUOTES  */
+	aside.quote .title {
+  font-family: "Rubik";
+  color: #fff;
+  background: rgba(200,200,200,.2);
+  border-left: 5px solid #fff;
+  border-left: 0;
+  padding: 10px;
+}
+
+.expanded-quote, .quote blockquote{
+  padding: 5px 10px;
+}
+
+.quote blockquote{
+	border: 1px solid rgba(255,255,255,.2);
+}
+
+aside.quote .quote-controls, aside.quote a:before{
+	color: #fff !important;
+}
+
+.topic-map{
+	background: rgba(255,255,255,.1);
+  border: none;
+}
+
+.lightbox-wrapper .meta{
+	background: rgba(0,0,0,.4);
+  font-family: "Rubik";
+  font-weight: 300;
+}
+
+.post-info{
+	padding-top: 12px;
+}
+
+.reply-to-tab{
+  padding-top:8px;
+}
+
+#topic-footer-buttons{
+	background: rgba(0,0,0,.8);
+  padding: 20px;
+}
+
+#suggested-topics .topics{
+	padding: 1px 20px 20px 20px;
+  margin: 0;
+}
+
+#suggested-topics h3{
+	background: rgba(0,0,0,.8);
+  padding: 20px;
+}
+
+#suggested-topics .topics .title{
+  font-size: .86em;
+  font-weight: 300;
+}
+
+.number{
+	font-weight: 500;
+}
+
+.btn{
+	background: rgba(80,80,80,.5) !important;
+}
+
+.btn:hover{
+	color: #fff;
+  opacity: .5;
+}
+
+.title-wrapper h1 span{
+	font-weight: 300 !important;
+  padding-left: 17px;
+}
+
+.dropdown-menu{
+	background: rgba(0,0,0,.9);
+	border: 1px solid rgba(255,255,255,.2);
+}
+
+.dropdown-menu li a{
+	padding: 20px;
+}
+
+
+
+
+.category-dropdown-menu .badge-category{
+	padding: 9px 10px !important;
+}
+
+
+.topic-body{
+	background: none !important;
+  border: none;
+}
+
+.user-title{
+	background: rgba(255,255,255,.2);
+	padding: 4px 0px 3px 8px;
+}
+
+.timeline-container{
+	background: rgba(0,0,0,.8);
+	padding: 15px 0 10px 0;
+}
+
+
+
+/* ----------------------------------------------------- */
+/*	STAFF COLORS   */
+/* ----------------------------------------------------- */
+.fa-shield{
+	font-size: .9em !important;
+  padding: 0 10px;
+  color: #ee2233 !important;
+}
+
+.admin a{
+	color: #ee2233 !important;
+}
+
+.moderator a{
+color: #ee2233 !important;
+}
+
+
+/* ----------------------------------------------------- */
+/*	REPLY CONTROL  */
+/* ----------------------------------------------------- */
+#reply-control{
+	background: rgba(0,0,0,.85);
+  border-top: 3px solid #ff9900 !important;
+}
+
+#reply-control input, #reply-control div{
+	border: none;
+}
+
+#reply-control textarea{
+	color: #fff;
+  background: rgba(40,40,40,.9) !important;
+  padding: 16px !important;
+  line-height: 1.5em;
+}
+
+.d-editor-preview{
+	background: rgba(0,0,0,.6) !important;
+  border: 1px solid rgba(255,255,255,.2) !important;
+}
+
+#reply-control .control{
+	padding-top: 6px !important;
+}
+
+
+
+
+/* ----------------------------------------------------- */
+/*	TOPICS LIST   */
+/* ----------------------------------------------------- */
+#list-area{
+	background: rgba(0,0,0,.8);
+	padding: 20px;
+}
+
+#list-area .title{
+	font-weight: 300;
+  font-size: .9em;
+}
+
+.list-controls .nav, .list-controls #create-topic{
+	font-weight: 300;
+  margin: 0;
+}
+
+.list-controls{
+	background: rgba(0,0,0,.8);
+  padding: 20px 20px 0 20px;
+}
+
+
+
+/*	MOBILE HORIZONTAL SCROLLING FIX   */
+#topic-closing-info{
+	width: auto !important;
+}
+
+/* STATIC PAGES */
+.directory, .about, .anniversaries, .birthdays{
+  padding: 15px;
+	background: rgba(0,0,0,.8);
+}
+
+/* ----------------------------------------------------- */
+/*	RESPONSIVE STYLES   */
+/* ----------------------------------------------------- */
+@media (max-width:870px){
+  #main-outlet{
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.topic-avatar{
+		display: none;
+	}
+  .topic-body{
+		padding: 10px 20px;
+	}
+
+  .topic-area{
+		max-width: inherit;
+	}
+  #list-area{
+		padding: 0px;
+	}
+}
